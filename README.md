@@ -1,5 +1,5 @@
 ![Image](https://github.com/user-attachments/assets/8c59e434-db05-47e4-8e86-2d3d35d83af3)
-# CeloHT
+
 # CeloHT DAO Governance
 
 ## Mission
