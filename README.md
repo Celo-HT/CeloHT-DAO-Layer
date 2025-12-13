@@ -7,9 +7,9 @@ It enables the community to create proposals, vote, and execute actions through 
 ## About CeloHT
 CeloHT is a **community-driven decentralized ecosystem** built on Celo.
 It is **not a token**. CeloHT focuses on impactful initiatives across three core pillars:
-1. **Education** — financial literacy, training, and blockchain knowledge.
-2. **Agents** — local agents supporting users and Valora onboarding.
-3. **Reforestation** — community-led tree-planting and micro-funding initiatives.
+1. **Education**  financial literacy, training, and blockchain knowledge.
+2. **Agents**  local agents supporting users and Valora onboarding.
+3. **Reforestation**  community-led tree-planting and micro-funding initiatives.
 
 CeloHT uses:
 - **cUSD** for treasury and operations
