@@ -1,4 +1,4 @@
-# Contributing to CeloHT DAO Layer (Anti-Fay 100%)
+# Contributing to CeloHT DAO Layer
 
 This guide ensures all contributions follow CeloHT DAO governance and maintain code quality.
 
