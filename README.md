@@ -1,40 +1,36 @@
 ![Image](https://github.com/user-attachments/assets/8c59e434-db05-47e4-8e86-2d3d35d83af3)
+# CeloHT DAO Layer
 
-# CeloHT DAO Governance
+CeloHT DAO Layer is the decentralized governance core of the CeloHT ecosystem.
+It enables the community to create proposals, vote, and execute actions through a secure, transparent, on-chain and off-chain governance system.
 
-## Mission
-Enable collective decision-making on the direction of CeloHT while protecting community resources and increasing impact across the three pillars: Education, Agents, Reforestation.
+## About CeloHT
+CeloHT is a **community-driven decentralized ecosystem** built on Celo.
+It is **not a token**. CeloHT focuses on impactful initiatives across three core pillars:
+1. **Education** — financial literacy, training, and blockchain knowledge.
+2. **Agents** — local agents supporting users and Valora onboarding.
+3. **Reforestation** — community-led tree-planting and micro-funding initiatives.
 
-## Roles
+CeloHT uses:
+- **cUSD** for treasury and operations
+- **CELO** for gas and governance execution
+- **Valora** to onboard users and process transactions
 
-### Founder & CEO: Johnny Dubic
-- **Responsibilities:** strategic vision, partnerships, initiating proposals.  
-- **Limits:** no veto power; cannot touch treasury without a passed vote; no private admin access to financial contracts.
+## Legal & Governance Note
+- CeloHT is **not a security or tradable token**.
+- Governance powers reside entirely with the **DAO and community members**.
+- Founder role (Johnny Dubic) is limited to **strategic vision and proposal initiation**.
+- Treasury and on-chain actions require **community approval** via DAO voting and timelock execution.
+- All assets and processes are fully **transparent and auditable**.
 
-### Community Members
-- Participate in voting, proposal creation, review, and program execution.
+## Features
+- Snapshot voting (off‑chain)
+- On‑chain Governor + Timelock execution
+- Gnosis Safe multisig treasury
+- Transparent public audit logs
 
-### Stewards / Guardians
-- Multisig stewards for emergency cases only (not for regular decisions without a vote).
-
-## Voting Parameters (Suggested)
-- **Quorum:** 2% voting power (adjustable via governance)  
-- **Passing Threshold:** more than 50% of votes cast  
-- **Voting Period:** 3–7 days  
-- **Timelock Delay:** 48–72 hours (default)
-
-## Treasury
-- **Custody:** Gnosis Safe multisig (3/5 or 4/7)  
-- **Assets:** cUSD, CELO, and other community-approved stable assets  
-- **Transfers:** only executed after a passed proposal + timelock + execution step
-
-## Proposal Lifecycle
-1. Draft (`PROPOSALS/000-template.md`)  
-2. Off-chain signaling (Snapshot)  
-3. On-chain proposal (Governor)  
-4. If passed → Queue in Timelock  
-5. Execute after timelock expires
-
-## Security & Audits
-- All deployed treasury-related code must pass an external audit before mainnet.  
-- Bug bounty and responsible disclosure programs are required.
+## Development
+```bash
+yarn install
+yarn test
+yarn hardhat run scripts/deploy.js
